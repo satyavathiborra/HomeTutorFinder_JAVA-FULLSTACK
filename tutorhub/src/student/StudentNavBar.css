@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5A6A7A; /* Dark gray background */
+  padding: 32px 32px ;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  height: calc(100vh - 60px); /* Adjust for navbar height */
+  background: none; /* Default to no background */
+  padding: 20px;
+  width: 100vw; /* Ensure it spans the full viewport width */
+  margin: 0; /* Remove any default margins */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Route-specific background colors */
+.student-home .main-content {
+  background-color: #f0f8ff; /* Light blue for StudentHome */
+}
+
+.student-login .main-content {
+  background-color: #fff5ee; /* Light orange for StudentLogin */
+}
+
+.student-profile .main-content {
+  background-color: #f5f5dc; /* Light beige for StudentProfile */
+}
+
+.view-all-courses .main-content {
+  background-color: #e6e6fa; /* Light lavender for ViewAllCourses */
+}
+
+.book-course .main-content {
+  background-color: #f0fff0; /* Light green for BookCourse */
+}
+
+.booked-courses .main-content {
+  background-color: #ffe4e1; /* Light pink for BookedCourses */
+}
+
+.update-profile .main-content {
+  background: none; /* Explicitly no background for UpdateProfile */
+}
+
+/* Ensure the body has no background color and takes full width */
+body {
+  margin: 0;
+  padding: 0; /* Remove any default padding */
+  background: none; /* Remove any default background */
+  width: 100vw; /* Full viewport width */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin-left: 10px;
+}

@@ -1,0 +1,165 @@
+/* AdminLogin.css */
+
+/* Main Container with Gradient Background */
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8cdda, #1fc8db);
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .admin-login-container h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* Form Card */
+  .admin-login-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    margin-right : 500px ;
+  }
+  
+  /* Each Form Group */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Label */
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  /* Input Field with only bottom border */
+  .form-group input {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    transition: border-color 0.3s ease;
+    outline: none;
+  }
+  
+  /* Input focus */
+  .form-group input:focus {
+    border-bottom: 2px solid #ff7eb3;
+  }
+  
+  /* Button */
+  .button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  /* Button hover */
+  .button:hover {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  }
+  
+  /* Success and Error Messages */
+  .success-message,
+  .error-message {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* Popup Modal Style */
+  .popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border-left: 6px solid;
+    padding: 1rem 1.5rem;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 9999;
+    max-width: 320px;
+    animation: slideDown 0.4s ease;
+  }
+  
+  /* Differentiate popup type */
+  .popup.success {
+    border-color: green;
+  }
+  
+  .popup.error {
+    border-color: red;
+  }
+  
+  /* Popup close button */
+  .popup button {
+    margin-top: 10px;
+    background: none;
+    color: #0077cc;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: underline;
+  }
+  
+  /* Popup animation */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 480px) {
+    .admin-login-form {
+      padding: 1.5rem 1rem;
+    }
+  }
+  

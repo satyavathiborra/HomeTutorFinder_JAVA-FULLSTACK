@@ -1,0 +1,75 @@
+.tutor-login-container, .tutor-home, .tutor-view-container, .tutor-update-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .tutor-login-container h2, .tutor-home h1, .tutor-view-container h2, .tutor-update-container h2 {
+    margin-bottom: 20px;
+    color: #2e2e2e;
+  }
+  
+  .tutor-login-container form, .tutor-update-container form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  
+  .tutor-login-container input, .tutor-update-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+  }
+  
+  .tutor-login-container button, .tutor-update-container button {
+    padding: 10px;
+    background-color: #009966;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .tutor-login-container button:hover, .tutor-update-container button:hover {
+    background-color: #007a52;
+  }
+  
+  .tutor-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006666;
+    padding: 15px;
+    color: white;
+  }
+  
+  .tutor-nav-links button {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .tutor-nav-links button:hover {
+    text-decoration: underline;
+  }
+  
+  .tutor-view-container table {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .tutor-view-container th, .tutor-view-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tutor-view-container th {
+    background-color: #f0f0f0;
+  }
+  

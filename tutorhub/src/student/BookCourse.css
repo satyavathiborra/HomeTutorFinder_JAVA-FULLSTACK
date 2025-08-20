@@ -1,0 +1,56 @@
+.book-course .main-content {
+  background-color: #f0fff0; /* Light green, matches StudentNavBar.css */
+  padding: 20px;
+  text-align: center;
+}
+
+.book-course h3 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  background-color: #5A6A7A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-group button:hover {
+  background-color: #4a5968;
+}

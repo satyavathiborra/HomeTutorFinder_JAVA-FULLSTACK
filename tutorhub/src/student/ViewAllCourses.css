@@ -1,0 +1,124 @@
+.view-all-courses .main-content {
+  background-color: #e6e6fa; /* Light lavender, matches StudentNavBar.css */
+  padding: 20px;
+}
+
+.course-payment-horizontal {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.course-list-section, .course-details-section, .payment-history-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 80px; /* Move content further down */
+}
+
+.course-list-section h2, .course-details-section h3, .payment-history-section h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  margin-bottom: 10px;
+}
+
+.course-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5A6A7A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.course-button:hover {
+  background-color: #4a5968;
+}
+
+.selected-course p, .payment-form p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.pay-now-btn, .payment-form button {
+  background-color: #5A6A7A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pay-now-btn:hover, .payment-form button:hover {
+  background-color: #4a5968;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-form h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-form input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.payment-form label {
+  font-size: 14px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.success-message {
+  text-align: center;
+  font-size: 18px;
+  color: #28a745;
+  margin-top: 20px;
+}
+
+.success-message p {
+  font-size: 16px;
+  color: #333;
+}
+
+.payment-history-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-history-section li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}

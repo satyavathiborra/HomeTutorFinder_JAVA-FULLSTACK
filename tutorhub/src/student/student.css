@@ -1,0 +1,98 @@
+.student-home {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-left: 350px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #5a6a7a;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-list li {
+  background-color: #6c7d7e;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 350px;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  transition: background-color 0.3s ease;
+}
+
+.course-list li:hover {
+  background-color: #4a5968;
+}
+
+.sticker {
+  font-size: 1.5em;
+}
+
+.course-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tutor-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 350px;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.tutor-details h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.tutor-details h4 {
+  font-size: 22px;
+  color: #666;
+}
+
+.tutor-details p {
+  font-size: 18px;
+  color: #333;
+}
+
+.tutor-details strong {
+  color: #5a6a7a;
+}
+
+.course-list li:empty {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}

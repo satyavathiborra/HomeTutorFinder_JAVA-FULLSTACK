@@ -1,0 +1,100 @@
+/* Home.css */
+
+/* Ensure the container takes full width and height */
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+@media (min-width: 640px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+}
+
+.highlight {
+    color: #2563eb;
+}
+
+.hero-subtitle {
+    margin-top: 0.5rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.features-section {
+    background-color: #ffffff;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-icon {
+    height: 3rem;
+    width: 3rem;
+    color: #2563eb;
+}
+
+.courses-section {
+    background-color: #111827;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.courses-grid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    color: #ffffff;
+}
+
+.course-category li:hover {
+    color: #2563eb;
+    cursor: pointer;
+    text-decoration: underline;
+}
